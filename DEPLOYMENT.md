@@ -79,3 +79,12 @@ After DNS propagates:
 4. Confirm success state on the site.
 5. Confirm message delivery to `mark@gr8ful.dev`.
 6. Confirm secondary domains 301/302 redirect to `https://base13.ai`.
+
+## Live status — 2026-06-30
+
+- `https://base13.ai/` is live on GitHub Pages.
+- GitHub Pages status: built.
+- HTTPS is enforced.
+- `http://base13.ai/` redirects to HTTPS.
+- `https://www.base13.ai/` redirects to `https://base13.ai/`.
+- Live-origin Postie honeypot smoke test returned HTTP 200.
